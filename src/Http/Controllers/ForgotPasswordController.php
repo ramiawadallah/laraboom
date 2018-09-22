@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfumes\Multiauth\Http\Controllers;
+namespace Ramiawadallah\Multiauth\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

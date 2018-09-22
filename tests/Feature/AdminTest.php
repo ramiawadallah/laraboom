@@ -1,14 +1,14 @@
 <?php
 
-namespace Bitfumes\Multiauth\Tests\Feature;
+namespace Ramiawadallah\Multiauth\Tests\Feature;
 
-use Bitfumes\Multiauth\Model\Role;
-use Bitfumes\Multiauth\Model\Admin;
+use Ramiawadallah\Multiauth\Model\Role;
+use Ramiawadallah\Multiauth\Model\Admin;
 use Illuminate\Support\Facades\Hash;
-use Bitfumes\Multiauth\Tests\TestCase;
+use Ramiawadallah\Multiauth\Tests\TestCase;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Bitfumes\Multiauth\Notifications\RegistrationNotification;
+use Ramiawadallah\Multiauth\Notifications\RegistrationNotification;
 
 class AdminTest extends TestCase
 {

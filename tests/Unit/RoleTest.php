@@ -1,9 +1,9 @@
 <?php
 
-namespace Bitfumes\Multiauth\Tests\Unit;
+namespace Ramiawadallah\Multiauth\Tests\Unit;
 
-use Bitfumes\Multiauth\Model\Role;
-use Bitfumes\Multiauth\Tests\TestCase;
+use Ramiawadallah\Multiauth\Model\Role;
+use Ramiawadallah\Multiauth\Tests\TestCase;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class RoleTest extends TestCase

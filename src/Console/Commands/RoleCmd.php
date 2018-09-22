@@ -1,9 +1,9 @@
 <?php
 
-namespace Bitfumes\Multiauth\Console\Commands;
+namespace Ramiawadallah\Multiauth\Console\Commands;
 
 use Illuminate\Console\Command;
-use Bitfumes\Multiauth\Model\Role;
+use Ramiawadallah\Multiauth\Model\Role;
 use Illuminate\Database\QueryException;
 
 class RoleCmd extends Command

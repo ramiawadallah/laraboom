@@ -1,7 +1,7 @@
 <?php
 
 Route::group([
-    'namespace'  => 'Bitfumes\Multiauth\Http\Controllers',
+    'namespace'  => 'Ramiawadallah\Multiauth\Http\Controllers',
     'middleware' => 'web',
     'prefix'     => config('multiauth.prefix', 'admin'),
 ], function () {

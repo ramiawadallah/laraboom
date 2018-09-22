@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfumes\Multiauth\Exception;
+namespace Ramiawadallah\Multiauth\Exception;
 
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as AppHandler;
