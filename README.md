@@ -2,17 +2,17 @@
 
 - **Laravel**: 5.6/5.7
 - **Author**: Ramiawadallah
-- **Author Homepage**: https://Ramiawadallah.com
+- **Author Homepage**: https://ramiawadallah.com
 
-[![Build Status](https://scrutinizer-ci.com/g/s-sarthak/laravel-multiauth/badges/build.png?b=master)](https://scrutinizer-ci.com/g/s-sarthak/laravel-multiauth/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/s-sarthak/laravel-multiauth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/s-sarthak/laravel-multiauth/?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/69d079cd52b7b2fb94c4/maintainability)](https://codeclimate.com/github/s-sarthak/laravel-multiauth/maintainability)
+[![Build Status](https://scrutinizer-ci.com/g/ramiawadallah/laraboom-multiauth/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ramiawadallah/laraboom-multiauth/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ramiawadallah/laraboom-multiauth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ramiawadallah/laraboom-multiauth/?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/69d079cd52b7b2fb94c4/maintainability)](https://codeclimate.com/github/ramiawadallah/laraboom-multiauth/maintainability)
 [![StyleCI](https://github.styleci.io/repos/143331251/shield?branch=master)](https://github.styleci.io/repos/143331251)
-[![Total Downloads](https://poser.pugx.org/Ramiawadallah/laravel-multiauth/downloads)](https://packagist.org/packages/Ramiawadallah/laravel-multiauth)
-[![GitHub license](https://img.shields.io/github/license/s-sarthak/laravel-multiauth.svg)](https://github.com/s-sarthak/laravel-multiauth/blob/master/LICENSE.md)
-[![GitHub stars](https://img.shields.io/github/stars/s-sarthak/laravel-multiauth.svg)](https://github.com/s-sarthak/laravel-multiauth/stargazers)
-[![Latest Stable Version](https://poser.pugx.org/Ramiawadallah/laravel-multiauth/v/stable)](https://packagist.org/packages/Ramiawadallah/laravel-multiauth)
-[![GitHub issues](https://img.shields.io/github/issues/s-sarthak/laravel-multiauth.svg)](https://github.com/s-sarthak/laravel-multiauth/issues)
+[![Total Downloads](https://poser.pugx.org/Ramiramiawadallah/laraboom-multiauth/downloads)](https://packagist.org/packages/Ramiramiawadallah/laraboom-multiauth)
+[![GitHub license](https://img.shields.io/github/license/ramiawadallah/laraboom-multiauth.svg)](https://github.com/ramiawadallah/laraboom-multiauth/blob/master/LICENSE.md)
+[![GitHub stars](https://img.shields.io/github/stars/ramiawadallah/laraboom-multiauth.svg)](https://github.com/ramiawadallah/laraboom-multiauth/stargazers)
+[![Latest Stable Version](https://poser.pugx.org/Ramiramiawadallah/laraboom-multiauth/v/stable)](https://packagist.org/packages/Ramiramiawadallah/laraboom-multiauth)
+[![GitHub issues](https://img.shields.io/github/issues/ramiawadallah/laraboom-multiauth.svg)](https://github.com/ramiawadallah/laraboom-multiauth/issues)
 
 
 This package is just create admin side (multi auth), which is totaly isolated from your normal auth ( which we create using php artisan make:auth )
@@ -34,10 +34,10 @@ in as a user and an admin, without conflicts!
 Install via composer.
 
 ```bash
-composer require Ramiawadallah/laravel-multiauth
+composer require ramiawadallah/laraboom-multiauth
 ```
 
-Before proceeding : you can make a normal auth, check [this doc](https://github.com/s-sarthak/laravel-multiauth#another-auth)
+Before proceeding : you can make a normal auth, check [this doc](https://github.com/ramiawadallah/laraboom-multiauth#another-auth)
 
 Publish Migrations
 
@@ -45,7 +45,7 @@ Publish Migrations
 php artisan vendor:publish --tag="multiauth:migrations"
 ```
 
-Run [the Migration](https://github.com/s-sarthak/laravel-multiauth/database/migrations/create_permission_tables.php) to have tables in your database.
+Run [the Migration](https://github.com/ramiawadallah/laraboom-multiauth/database/migrations/create_permission_tables.php) to have tables in your database.
 
 ```bash
 php artisan migrate

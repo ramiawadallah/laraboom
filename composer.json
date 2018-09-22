@@ -1,6 +1,6 @@
 {
     "name": "ramiawadallah/laraboom-multiauth",
-    "description": "Laravel Multiauth package",
+    "description": "Laravel Multiauth Admin package",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -10,8 +10,8 @@
         "multi auth"
     ],
     "authors": [{
-        "name": "s-sarthak",
-        "email": "sarthak@Ramiawadallah.com"
+        "name": "Rami Awadallah",
+        "email": "rami.moh.awadallah@gmail.com"
     }],
     "minimum-stability": "dev",
     "require": {},
