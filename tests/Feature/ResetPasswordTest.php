@@ -1,13 +1,13 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Tests\Feature;
+namespace Bitfumes\Multiauth\Tests\Feature;
 
-use Ramiawadallah\Multiauth\Model\Admin;
+use Bitfumes\Multiauth\Model\Admin;
 use Illuminate\Support\Facades\Hash;
-use Ramiawadallah\Multiauth\Tests\TestCase;
+use Bitfumes\Multiauth\Tests\TestCase;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Ramiawadallah\Multiauth\Notifications\AdminResetPasswordNotification;
+use Bitfumes\Multiauth\Notifications\AdminResetPasswordNotification;
 
 class ResetPasswordTest extends TestCase
 {

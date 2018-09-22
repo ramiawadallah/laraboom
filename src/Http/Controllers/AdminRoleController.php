@@ -1,10 +1,10 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Http\Controllers;
+namespace Bitfumes\Multiauth\Http\Controllers;
 
-use Ramiawadallah\Multiauth\Model\Role;
+use Bitfumes\Multiauth\Model\Role;
 use Illuminate\Routing\Controller;
-use Ramiawadallah\Multiauth\Model\Admin;
+use Bitfumes\Multiauth\Model\Admin;
 
 class AdminRoleController extends Controller
 {

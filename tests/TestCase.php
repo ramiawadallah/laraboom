@@ -1,10 +1,10 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Tests;
+namespace Bitfumes\Multiauth\Tests;
 
-use Ramiawadallah\Multiauth\Model\Role;
-use Ramiawadallah\Multiauth\Model\Admin;
-use Ramiawadallah\Multiauth\MultiauthServiceProvider;
+use Bitfumes\Multiauth\Model\Role;
+use Bitfumes\Multiauth\Model\Admin;
+use Bitfumes\Multiauth\MultiauthServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase

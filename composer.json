@@ -1,17 +1,18 @@
 {
     "name": "ramiawadallah/laraboom-multiauth",
-    "description": "Laravel Admin package",
+    "description": "Laravel Multiauth package",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "laravel multiauth",
         "multiauth",
+        "bitfumes",
         "admin auth",
         "multi auth"
     ],
     "authors": [{
-        "name": "Rami Awadallah",
-        "email": "rami.moh.awadallah@gmail.com"
+        "name": "s-sarthak",
+        "email": "sarthak@bitfumes.com"
     }],
     "minimum-stability": "dev",
     "require": {},
@@ -25,18 +26,18 @@
     },
     "autoload": {
         "psr-4": {
-            "RamiAwadallah\\Multiauth\\": "src/"
+            "Bitfumes\\Multiauth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RamiAwadallah\\Multiauth\\Tests\\":"tests/"
+            "Bitfumes\\Multiauth\\Tests\\":"tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "RamiAwadallah\\Multiauth\\MultiauthServiceProvider"
+                "Bitfumes\\Multiauth\\MultiauthServiceProvider"
             ]
         }
     }

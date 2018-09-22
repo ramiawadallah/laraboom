@@ -1,10 +1,10 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Tests\Unit;
+namespace Bitfumes\Multiauth\Tests\Unit;
 
-use Ramiawadallah\Multiauth\Tests\TestCase;
+use Bitfumes\Multiauth\Tests\TestCase;
 use Illuminate\Support\Facades\Notification;
-use Ramiawadallah\Multiauth\Notifications\RegistrationNotification;
+use Bitfumes\Multiauth\Notifications\RegistrationNotification;
 
 class RegistrationTest extends TestCase
 {

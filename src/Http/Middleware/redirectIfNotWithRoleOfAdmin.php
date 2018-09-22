@@ -1,6 +1,6 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Http\Middleware;
+namespace Bitfumes\Multiauth\Http\Middleware;
 
 use Auth;
 use Closure;

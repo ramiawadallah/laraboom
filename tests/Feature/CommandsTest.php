@@ -1,8 +1,8 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Tests\Feature;
+namespace Bitfumes\Multiauth\Tests\Feature;
 
-use Ramiawadallah\Multiauth\Tests\TestCase;
+use Bitfumes\Multiauth\Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class CommandsTest extends TestCase

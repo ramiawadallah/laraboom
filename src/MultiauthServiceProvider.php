@@ -1,17 +1,17 @@
 <?php
 
-namespace Ramiawadallah\Multiauth;
+namespace Bitfumes\Multiauth;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
-use Ramiawadallah\Multiauth\Console\Commands\RoleCmd;
-use Ramiawadallah\Multiauth\Console\Commands\SeedCmd;
-use Ramiawadallah\Multiauth\Exception\MultiAuthHandler;
-use Ramiawadallah\Multiauth\Console\Commands\MakeMultiAuthCommand;
-use Ramiawadallah\Multiauth\Console\Commands\RollbackMultiAuthCommand;
-use Ramiawadallah\Multiauth\Http\Middleware\redirectIfAuthenticatedAdmin;
-use Ramiawadallah\Multiauth\Http\Middleware\redirectIfNotWithRoleOfAdmin;
+use Bitfumes\Multiauth\Console\Commands\RoleCmd;
+use Bitfumes\Multiauth\Console\Commands\SeedCmd;
+use Bitfumes\Multiauth\Exception\MultiAuthHandler;
+use Bitfumes\Multiauth\Console\Commands\MakeMultiAuthCommand;
+use Bitfumes\Multiauth\Console\Commands\RollbackMultiAuthCommand;
+use Bitfumes\Multiauth\Http\Middleware\redirectIfAuthenticatedAdmin;
+use Bitfumes\Multiauth\Http\Middleware\redirectIfNotWithRoleOfAdmin;
 
 class MultiauthServiceProvider extends ServiceProvider
 {

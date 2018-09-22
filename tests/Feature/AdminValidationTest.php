@@ -1,9 +1,9 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Tests\Feature;
+namespace Bitfumes\Multiauth\Tests\Feature;
 
-use Ramiawadallah\Multiauth\Model\Admin;
-use Ramiawadallah\Multiauth\Tests\TestCase;
+use Bitfumes\Multiauth\Model\Admin;
+use Bitfumes\Multiauth\Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class AdminValidationTest extends TestCase

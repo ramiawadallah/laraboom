@@ -1,6 +1,6 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Console\Commands;
+namespace Bitfumes\Multiauth\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Container\Container;

@@ -1,15 +1,15 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Http\Controllers;
+namespace Bitfumes\Multiauth\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Ramiawadallah\Multiauth\Model\Role;
+use Bitfumes\Multiauth\Model\Role;
 use Illuminate\Routing\Controller;
-use Ramiawadallah\Multiauth\Model\Admin;
+use Bitfumes\Multiauth\Model\Admin;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use Ramiawadallah\Multiauth\Http\Requests\AdminRequest;
-use Ramiawadallah\Multiauth\Notifications\RegistrationNotification;
+use Bitfumes\Multiauth\Http\Requests\AdminRequest;
+use Bitfumes\Multiauth\Notifications\RegistrationNotification;
 
 class RegisterController extends Controller
 {

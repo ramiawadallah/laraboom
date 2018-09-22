@@ -1,6 +1,6 @@
 <?php
 
-use Ramiawadallah\Multiauth\Model\Admin;
+use Bitfumes\Multiauth\Model\Admin;
 
 /* @var \Illuminate\Database\Eloquent\Factory $factory */
 $factory->define(Admin::class, function (Faker\Generator $faker) {

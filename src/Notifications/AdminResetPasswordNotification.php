@@ -1,6 +1,6 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Notifications;
+namespace Bitfumes\Multiauth\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
