@@ -1,12 +1,12 @@
 <?php
 
-namespace Bitfumes\Multiauth\Tests\Unit;
+namespace Ramiawadallah\Multiauth\Tests\Unit;
 
 use Illuminate\Support\Facades\Hash;
-use Bitfumes\Multiauth\Tests\TestCase;
+use Ramiawadallah\Multiauth\Tests\TestCase;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Bitfumes\Multiauth\Notifications\AdminResetPasswordNotification;
+use Ramiawadallah\Multiauth\Notifications\AdminResetPasswordNotification;
 
 class AdminTest extends TestCase
 {

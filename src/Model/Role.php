@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfumes\Multiauth\Model;
+namespace Ramiawadallah\Multiauth\Model;
 
 use Illuminate\Database\Eloquent\Model;
 

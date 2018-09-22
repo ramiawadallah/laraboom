@@ -1,9 +1,9 @@
 <?php
 
-namespace Bitfumes\Multiauth\Http\Controllers;
+namespace Ramiawadallah\Multiauth\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Bitfumes\Multiauth\Model\Admin;
+use Ramiawadallah\Multiauth\Model\Admin;
 
 class AdminController extends Controller
 {

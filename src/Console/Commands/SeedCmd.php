@@ -1,10 +1,10 @@
 <?php
 
-namespace Bitfumes\Multiauth\Console\Commands;
+namespace Ramiawadallah\Multiauth\Console\Commands;
 
 use Illuminate\Console\Command;
-use Bitfumes\Multiauth\Model\Role;
-use Bitfumes\Multiauth\Model\Admin;
+use Ramiawadallah\Multiauth\Model\Role;
+use Ramiawadallah\Multiauth\Model\Admin;
 
 class SeedCmd extends Command
 {

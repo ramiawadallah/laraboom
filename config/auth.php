@@ -11,7 +11,7 @@ return [
     'providers' => [
         'admins' => [
             'driver' => 'eloquent',
-            'model'  => Bitfumes\Multiauth\Model\Admin::class,
+            'model'  => Ramiawadallah\Multiauth\Model\Admin::class,
         ],
     ],
 

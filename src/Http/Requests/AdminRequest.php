@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfumes\Multiauth\Http\Requests;
+namespace Ramiawadallah\Multiauth\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

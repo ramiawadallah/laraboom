@@ -1,10 +1,10 @@
 <?php
 
-namespace Bitfumes\Multiauth\Model;
+namespace Ramiawadallah\Multiauth\Model;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Bitfumes\Multiauth\Notifications\AdminResetPasswordNotification;
+use Ramiawadallah\Multiauth\Notifications\AdminResetPasswordNotification;
 
 class Admin extends Authenticatable
 {

@@ -6,13 +6,12 @@
     "keywords": [
         "laravel multiauth",
         "multiauth",
-        "bitfumes",
         "admin auth",
         "multi auth"
     ],
     "authors": [{
         "name": "s-sarthak",
-        "email": "sarthak@bitfumes.com"
+        "email": "sarthak@Ramiawadallah.com"
     }],
     "minimum-stability": "dev",
     "require": {},
@@ -26,18 +25,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Bitfumes\\Multiauth\\": "src/"
+            "Ramiawadallah\\Multiauth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bitfumes\\Multiauth\\Tests\\":"tests/"
+            "Ramiawadallah\\Multiauth\\Tests\\":"tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bitfumes\\Multiauth\\MultiauthServiceProvider"
+                "Ramiawadallah\\Multiauth\\MultiauthServiceProvider"
             ]
         }
     }

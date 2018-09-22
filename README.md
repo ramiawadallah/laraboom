@@ -1,17 +1,17 @@
 # Laravel Multi Auth
 
 - **Laravel**: 5.6/5.7
-- **Author**: Bitfumes
-- **Author Homepage**: https://bitfumes.com
+- **Author**: Ramiawadallah
+- **Author Homepage**: https://Ramiawadallah.com
 
 [![Build Status](https://scrutinizer-ci.com/g/s-sarthak/laravel-multiauth/badges/build.png?b=master)](https://scrutinizer-ci.com/g/s-sarthak/laravel-multiauth/build-status/master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/s-sarthak/laravel-multiauth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/s-sarthak/laravel-multiauth/?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/69d079cd52b7b2fb94c4/maintainability)](https://codeclimate.com/github/s-sarthak/laravel-multiauth/maintainability)
 [![StyleCI](https://github.styleci.io/repos/143331251/shield?branch=master)](https://github.styleci.io/repos/143331251)
-[![Total Downloads](https://poser.pugx.org/bitfumes/laravel-multiauth/downloads)](https://packagist.org/packages/bitfumes/laravel-multiauth)
+[![Total Downloads](https://poser.pugx.org/Ramiawadallah/laravel-multiauth/downloads)](https://packagist.org/packages/Ramiawadallah/laravel-multiauth)
 [![GitHub license](https://img.shields.io/github/license/s-sarthak/laravel-multiauth.svg)](https://github.com/s-sarthak/laravel-multiauth/blob/master/LICENSE.md)
 [![GitHub stars](https://img.shields.io/github/stars/s-sarthak/laravel-multiauth.svg)](https://github.com/s-sarthak/laravel-multiauth/stargazers)
-[![Latest Stable Version](https://poser.pugx.org/bitfumes/laravel-multiauth/v/stable)](https://packagist.org/packages/bitfumes/laravel-multiauth)
+[![Latest Stable Version](https://poser.pugx.org/Ramiawadallah/laravel-multiauth/v/stable)](https://packagist.org/packages/Ramiawadallah/laravel-multiauth)
 [![GitHub issues](https://img.shields.io/github/issues/s-sarthak/laravel-multiauth.svg)](https://github.com/s-sarthak/laravel-multiauth/issues)
 
 
@@ -24,9 +24,9 @@ in as a user and an admin, without conflicts!
 
 |Laravel version | Branch | Install           |
 |----------------|--------|-------------------|
-|5.4             |   5.4  | composer require bitfumes/laravel-multiauth:5.4.x-dev|
-|5.5             |   5.5  | composer require bitfumes/laravel-multiauth:5.5.x-dev|
-|5.6 and 5.7     | Master | composer require bitfumes/laravel-multiauth|
+|5.4             |   5.4  | composer require Ramiawadallah/laravel-multiauth:5.4.x-dev|
+|5.5             |   5.5  | composer require Ramiawadallah/laravel-multiauth:5.5.x-dev|
+|5.6 and 5.7     | Master | composer require Ramiawadallah/laravel-multiauth|
 
 
 ## Installation
@@ -34,7 +34,7 @@ in as a user and an admin, without conflicts!
 Install via composer.
 
 ```bash
-composer require bitfumes/laravel-multiauth
+composer require Ramiawadallah/laravel-multiauth
 ```
 
 Before proceeding : you can make a normal auth, check [this doc](https://github.com/s-sarthak/laravel-multiauth#another-auth)
