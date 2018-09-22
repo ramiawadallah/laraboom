@@ -25,18 +25,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Laraboom\\Multiauth\\": "src/"
+            "RamiAwadallah\\Multiauth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laraboom\\Multiauth\\Tests\\":"tests/"
+            "RamiAwadallah\\Multiauth\\Tests\\":"tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laraboom\\Multiauth\\MultiauthServiceProvider"
+                "RamiAwadallah\\Multiauth\\MultiauthServiceProvider"
             ]
         }
     }
