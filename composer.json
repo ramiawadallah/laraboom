@@ -21,7 +21,8 @@
         "orchestra/testbench": "^3.8@dev",
         "orchestra/database": "^3.8@dev",
         "illuminate/support": "^5.8@dev",
-        "fzaninotto/faker": "^1.9@dev"
+        "fzaninotto/faker": "^1.9@dev",
+        "laravelcollective/html":"^5.4.0"
     },
     "autoload": {
         "psr-4": {
