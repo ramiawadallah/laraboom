@@ -4,16 +4,6 @@
 - **Author**: Ramiawadallah
 - **Author Homepage**: https://ramiawadallah.com
 
-[![Build Status](https://scrutinizer-ci.com/g/ramiawadallah/laraboom-multiauth/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ramiawadallah/laraboom-multiauth/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ramiawadallah/laraboom-multiauth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ramiawadallah/laraboom-multiauth/?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/69d079cd52b7b2fb94c4/maintainability)](https://codeclimate.com/github/ramiawadallah/laraboom-multiauth/maintainability)
-[![StyleCI](https://github.styleci.io/repos/143331251/shield?branch=master)](https://github.styleci.io/repos/143331251)
-[![Total Downloads](https://poser.pugx.org/Ramiramiawadallah/laraboom-multiauth/downloads)](https://packagist.org/packages/Ramiramiawadallah/laraboom-multiauth)
-[![GitHub license](https://img.shields.io/github/license/ramiawadallah/laraboom-multiauth.svg)](https://github.com/ramiawadallah/laraboom-multiauth/blob/master/LICENSE.md)
-[![GitHub stars](https://img.shields.io/github/stars/ramiawadallah/laraboom-multiauth.svg)](https://github.com/ramiawadallah/laraboom-multiauth/stargazers)
-[![Latest Stable Version](https://poser.pugx.org/Ramiramiawadallah/laraboom-multiauth/v/stable)](https://packagist.org/packages/Ramiramiawadallah/laraboom-multiauth)
-[![GitHub issues](https://img.shields.io/github/issues/ramiawadallah/laraboom-multiauth.svg)](https://github.com/ramiawadallah/laraboom-multiauth/issues)
-
 
 This package is just create admin side (multi auth), which is totaly isolated from your normal auth ( which we create using php artisan make:auth )
 
