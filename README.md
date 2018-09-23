@@ -5,18 +5,9 @@
 - **Author Homepage**: https://ramiawadallah.com
 
 
-This package is just create admin side (multi auth), which is totaly isolated from your normal auth ( which we create using php artisan make:auth )
-
-On top of that, you can use multiple authentication types, simultaneously, so you can be logged
-in as a user and an admin, without conflicts!
-
 ## Version Guidance
 
-|Laravel version | Branch | Install           |
-|----------------|--------|-------------------|
-|5.4             |   5.4  | composer require Ramiawadallah/laravel-multiauth:5.4.x-dev|
-|5.5             |   5.5  | composer require Ramiawadallah/laravel-multiauth:5.5.x-dev|
-|5.6 and 5.7     | Master | composer require Ramiawadallah/laravel-multiauth|
+5.6 and 5.7     
 
 
 ## Installation
@@ -173,8 +164,6 @@ If you want to add multiple role, you can do like this
 php artisan multiauth:make {guard}
 ```
 
-After you run this command you will get steps in which files has been added/changed.
-![For Make](https://user-images.githubusercontent.com/41295276/44602450-4a4e2580-a7fd-11e8-858b-cac65c496908.png)
 
 **You can rollback this auth also if you want.**
 
@@ -182,8 +171,6 @@ After you run this command you will get steps in which files has been added/chan
 php artisan multiauth:rollback {guard}
 ```
 
-This command will show you steps to rollback and file that has changed/removed.
-![For Rollback](https://user-images.githubusercontent.com/41295276/44602466-5508ba80-a7fd-11e8-9737-3711baecbbdb.png)
 
 ## License
 
