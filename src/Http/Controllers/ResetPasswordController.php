@@ -1,6 +1,6 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
@@ -56,7 +56,7 @@ class ResetPasswordController extends Controller
      */
     public function showResetForm(Request $request, $token = null)
     {
-        return view('multiauth::admin.passwords.reset')->with(['token' => $token, 'email' => $request->email]);
+        return view('admin.passwords.reset')->with(['token' => $token, 'email' => $request->email]);
     }
 
     /**

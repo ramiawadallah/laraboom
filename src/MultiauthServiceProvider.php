@@ -101,7 +101,7 @@ class MultiauthServiceProvider extends ServiceProvider
             __DIR__.'/database/migrations/' => database_path('migrations'),
         ], 'multiauth:migrations');
         $this->publishes([
-            __DIR__.'/views' => resource_path('views/vendor/multiauth'),
+            __DIR__.'/views' => resource_path('views/admin'),
         ], 'multiauth:views');
         $this->publishes([
             __DIR__.'/factories' => database_path('factories'),
@@ -112,6 +112,9 @@ class MultiauthServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/routes/routes.php' => base_path("routes/{$prefix}.php"),
         ], 'multiauth:routes');
+        $this->publishes([
+            __DIR__.'/Http/Controllers' => base_path("app/http/controllers/{$prefix}"),
+        ], 'multiauth:Controllers');
     }
 
     protected function loadBladeSyntax()

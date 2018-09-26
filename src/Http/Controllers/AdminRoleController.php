@@ -1,6 +1,6 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Ramiawadallah\Multiauth\Model\Role;
 use Illuminate\Routing\Controller;

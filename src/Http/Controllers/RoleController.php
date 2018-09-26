@@ -1,6 +1,6 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use Ramiawadallah\Multiauth\Model\Role;
@@ -19,17 +19,17 @@ class RoleController extends Controller
     {
         $roles = Role::all();
 
-        return view('multiauth::roles.index', compact('roles'));
+        return view('roles.index', compact('roles'));
     }
 
     public function create()
     {
-        return view('multiauth::roles.create');
+        return view('roles.create');
     }
 
     public function edit(Role $role)
     {
-        return view('multiauth::roles.edit', compact('role'));
+        return view('roles.edit', compact('role'));
     }
 
     public function store(Request $request)

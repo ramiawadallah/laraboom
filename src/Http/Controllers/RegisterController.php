@@ -1,6 +1,6 @@
 <?php
 
-namespace Ramiawadallah\Multiauth\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use Ramiawadallah\Multiauth\Model\Role;
@@ -53,7 +53,7 @@ class RegisterController extends Controller
     {
         $roles = Role::all();
 
-        return view('multiauth::admin.register', compact('roles'));
+        return view('admin.register', compact('roles'));
     }
 
     public function register(AdminRequest $request)
@@ -99,7 +99,7 @@ class RegisterController extends Controller
     {
         $roles = Role::all();
 
-        return view('multiauth::admin.edit', compact('admin', 'roles'));
+        return view('admin.edit', compact('admin', 'roles'));
     }
 
     public function update(Admin $admin, AdminRequest $request)
