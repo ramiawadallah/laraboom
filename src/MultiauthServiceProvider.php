@@ -99,22 +99,25 @@ class MultiauthServiceProvider extends ServiceProvider
         $prefix = config('multiauth.prefix', 'admin');
         $this->publishes([
             __DIR__.'/database/migrations/' => database_path('migrations'),
-        ], 'multiauth:migrations');
+        ], 'migrations');
         $this->publishes([
             __DIR__.'/views' => resource_path('views/admin'),
-        ], 'multiauth:views');
+        ], 'views');
         $this->publishes([
             __DIR__.'/factories' => database_path('factories'),
-        ], 'multiauth:factories');
+        ], 'factories');
         $this->publishes([
             __DIR__.'/../config/multiauth.php' => config_path('multiauth.php'),
-        ], 'multiauth:config');
+        ], 'config');
         $this->publishes([
             __DIR__.'/routes/routes.php' => base_path("routes/{$prefix}.php"),
-        ], 'multiauth:routes');
+        ], 'routes');
         $this->publishes([
             __DIR__.'/Http/Controllers' => base_path("app/http/controllers/{$prefix}"),
-        ], 'multiauth:Controllers');
+        ], 'Controllers');
+        $this->publishes([
+            __DIR__.'/Model' => base_path("app/model"),
+        ], 'Model');
     }
 
     protected function loadBladeSyntax()

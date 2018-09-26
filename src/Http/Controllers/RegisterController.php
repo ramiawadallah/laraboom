@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use Ramiawadallah\Multiauth\Model\Role;
+use App\Model\Role;
 use Illuminate\Routing\Controller;
-use Ramiawadallah\Multiauth\Model\Admin;
+use App\Model\Admin;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Ramiawadallah\Multiauth\Http\Requests\AdminRequest;
@@ -53,7 +53,7 @@ class RegisterController extends Controller
     {
         $roles = Role::all();
 
-        return view('admin.register', compact('roles'));
+        return view('admin.admin.register', compact('roles'));
     }
 
     public function register(AdminRequest $request)
@@ -99,7 +99,7 @@ class RegisterController extends Controller
     {
         $roles = Role::all();
 
-        return view('admin.edit', compact('admin', 'roles'));
+        return view('admin.admin.edit', compact('admin', 'roles'));
     }
 
     public function update(Admin $admin, AdminRequest $request)

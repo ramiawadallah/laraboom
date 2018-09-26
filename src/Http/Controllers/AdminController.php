@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Routing\Controller;
-use Ramiawadallah\Multiauth\Model\Admin;
+use App\Model\Admin;
 
 class AdminController extends Controller
 {
@@ -20,13 +20,13 @@ class AdminController extends Controller
 
     public function index()
     {
-        return view('multiauth::admin.home');
+        return view('admin.admin.home');
     }
 
     public function show()
     {
         $admins = Admin::where('id', '!=', 1)->get();
 
-        return view('multiauth::admin.show', compact('admins'));
+        return view('admin.admin.show', compact('admins'));
     }
 }

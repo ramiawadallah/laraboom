@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use Ramiawadallah\Multiauth\Model\Role;
+use App\Model\Role;
 use Illuminate\Routing\Controller;
-use Ramiawadallah\Multiauth\Model\Admin;
+use App\Model\Admin;
 
 class RoleController extends Controller
 {
