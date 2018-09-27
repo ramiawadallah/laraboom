@@ -1,6 +1,6 @@
 <?php
 
-use App\Model\Role;
+use App\Model\Admin;
 
 /* @var \Illuminate\Database\Eloquent\Factory $factory */
 $factory->define(Admin::class, function (Faker\Generator $faker) {
