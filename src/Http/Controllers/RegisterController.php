@@ -53,7 +53,7 @@ class RegisterController extends Controller
     {
         $roles = Role::all();
 
-        return view('admin.admin.register', compact('roles'));
+        return view('admin.admins.register', compact('roles'));
     }
 
     public function register(AdminRequest $request)
@@ -99,7 +99,7 @@ class RegisterController extends Controller
     {
         $roles = Role::all();
 
-        return view('admin.admin.edit', compact('admin', 'roles'));
+        return view('admin.admins.edit', compact('admin', 'roles'));
     }
 
     public function update(Admin $admin, AdminRequest $request)

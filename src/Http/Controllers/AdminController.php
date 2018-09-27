@@ -20,13 +20,13 @@ class AdminController extends Controller
 
     public function index()
     {
-        return view('admin.admin.home');
+        return view('admin.home');
     }
 
     public function show()
     {
         $admins = Admin::where('id', '!=', 1)->get();
 
-        return view('admin.admin.show', compact('admins'));
+        return view('admin.admins.show', compact('admins'));
     }
 }

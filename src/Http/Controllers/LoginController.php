@@ -49,7 +49,7 @@ class LoginController extends Controller
      */
     public function showLoginForm()
     {
-        return view('admin.admin.login');
+        return view('admin.admins.login');
     }
 
     /**
@@ -62,7 +62,7 @@ class LoginController extends Controller
 
         $request->session()->invalidate();
 
-        return redirect(route('admin.admin.login'));
+        return redirect(route('admin.admins.login'));
     }
 
     /**

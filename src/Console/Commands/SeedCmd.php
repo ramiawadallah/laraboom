@@ -3,8 +3,8 @@
 namespace Ramiawadallah\Multiauth\Console\Commands;
 
 use Illuminate\Console\Command;
-use Ramiawadallah\Multiauth\Model\Role;
-use Ramiawadallah\Multiauth\Model\Admin;
+use App\Model\Admin;
+use App\Model\Role;
 
 class SeedCmd extends Command
 {

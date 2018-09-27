@@ -19,12 +19,12 @@ class RoleController extends Controller
     {
         $roles = Role::all();
 
-        return view('roles.index', compact('roles'));
+        return view('admin.roles.index', compact('roles'));
     }
 
     public function create()
     {
-        return view('roles.create');
+        return view('admin.roles.create');
     }
 
     public function edit(Role $role)

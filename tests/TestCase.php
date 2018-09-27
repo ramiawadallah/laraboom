@@ -2,8 +2,8 @@
 
 namespace Ramiawadallah\Multiauth\Tests;
 
-use Ramiawadallah\Multiauth\Model\Role;
-use Ramiawadallah\Multiauth\Model\Admin;
+use App\Model\Admin;
+use App\Model\Role;
 use Ramiawadallah\Multiauth\MultiauthServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
