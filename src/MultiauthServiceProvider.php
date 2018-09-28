@@ -118,9 +118,6 @@ class MultiauthServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/Model' => base_path("app/Model"),
         ], 'Model');
-        $this->publishes([
-            __DIR__.'/Console/Commands' => base_path("app/console/Commands"),
-        ], 'Commands');
     }
 
     protected function loadBladeSyntax()

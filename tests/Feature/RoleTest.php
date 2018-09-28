@@ -2,7 +2,7 @@
 
 namespace Ramiawadallah\Multiauth\Tests\Feature;
 
-use Ramiawadallah\Multiauth\Model\Role;
+use App\Model\Admin;
 use Ramiawadallah\Multiauth\Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 

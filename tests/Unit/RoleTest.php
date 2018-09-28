@@ -2,7 +2,7 @@
 
 namespace Ramiawadallah\Multiauth\Tests\Unit;
 
-use Ramiawadallah\Multiauth\Model\Role;
+use App\Model\Admin;
 use Ramiawadallah\Multiauth\Tests\TestCase;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 

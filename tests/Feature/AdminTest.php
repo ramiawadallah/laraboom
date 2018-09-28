@@ -2,8 +2,8 @@
 
 namespace Ramiawadallah\Multiauth\Tests\Feature;
 
-use Ramiawadallah\Multiauth\Model\Role;
-use Ramiawadallah\Multiauth\Model\Admin;
+use App\Model\Admin;
+use App\Model\Role;
 use Illuminate\Support\Facades\Hash;
 use Ramiawadallah\Multiauth\Tests\TestCase;
 use Illuminate\Support\Facades\Notification;

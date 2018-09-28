@@ -3,7 +3,7 @@
 namespace Ramiawadallah\Multiauth\Console\Commands;
 
 use Illuminate\Console\Command;
-use Ramiawadallah\Multiauth\Model\Role;
+use App\Model\Role;
 use Illuminate\Database\QueryException;
 
 class RoleCmd extends Command
